@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="formulario">
+    <fieldset class="fieldset">
+      <legend class="title">Cadastre-se</legend>
+
+      <label for="username" class="label label-username">Usuário
+        <input type="text" id="username" name="username" required autocomplete="on" placeholder="Usuário ou e-mail..." class="input">
+      </label>
+      
+      <label for="email" class="label label-email">EMAIL
+        <input type="email" name="email" required placeholder="Insira um email válido..." class="input">
+      </label>
+
+      <label for="password" class="label label-pass">Senha
+        <input type="password" id="pass" name="password" required placeholder="Insira sua senha..." class="input">
+      </label>
+
+      <div class="btn-div"><input type="submit" name="login" value="Cadastre-se" class="btn btn-cadastro"></div>
+
+      <div class="div-link">
+        <p>Já possui cadastro? <br><a href="login.html" target="_self" class="link">Faça login</a></p>
+      </div>
+
+    </fieldset>
+  </form>
+</body>
+</html>
